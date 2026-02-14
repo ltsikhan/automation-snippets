@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.tmp
+*.swp
+
+# Ignore real input lists / private files
+pvc-list.txt
+*private*.txt

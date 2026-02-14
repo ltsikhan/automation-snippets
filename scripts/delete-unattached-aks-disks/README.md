@@ -23,3 +23,11 @@ Create a list file with disk names (one per line):
 # examples/pvc-list.example.txt
 pvc-12345678-aaaa-bbbb-cccc-1234567890ab
 pvc-abcdef12-3456-7890-abcd-ef1234567890
+
+Dry run (default):
+```bash
+./delete-unattached-aks-disks.sh -f pvc-list.example.txt -g MC_example_rg_example_aks --search-all-rgs
+
+Execute deletion:
+
+./delete-unattached-aks-disks.sh -f pvc-list.example.txt -g MC_example_rg_example_aks --search-all-rgs --execute

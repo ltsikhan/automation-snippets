@@ -28,3 +28,11 @@ DRY_RUN=0 ./delete-empty-namespaces.sh
 Check only one namespace:
 
 DRY_RUN=1 ./delete-empty-namespaces.sh my-namespace
+
+Safety notes
+
+Review dry-run output first.
+
+Adjust the protected namespace regex in the script to match your environment.
+
+If you also want to treat ConfigMaps/Secrets/RoleBindings as "active", extend the resource list in the script.

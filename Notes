@@ -1,0 +1,18 @@
+
+---
+
+### `.gitignore`
+```gitignore
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Local files
+*.log
+*.tmp
+*.swp
+
+# Example inputs (keep example file, ignore real lists)
+pvc-list.txt
+*private*.txt

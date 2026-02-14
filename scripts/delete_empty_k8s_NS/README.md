@@ -19,3 +19,12 @@ For each namespace it evaluates:
 Dry run (default):
 ```bash
 DRY_RUN=1 ./delete-empty-namespaces.sh
+
+Execute deletion:
+
+DRY_RUN=0 ./delete-empty-namespaces.sh
+
+
+Check only one namespace:
+
+DRY_RUN=1 ./delete-empty-namespaces.sh my-namespace
